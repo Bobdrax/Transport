@@ -7,8 +7,8 @@ operacion (hora del dia, dia de la semana, lluvia, tipo de estacion y frecuencia
 de buses).
 
 ## Integrantes
-- [Nombre del integrante 1]
-- [Nombre del integrante 2]
+- Johan David Cifuentes Linares
+- 
 
 ## Fundamentacion teorica
 Basado en el capitulo 17 (Aprendizaje de arboles y reglas de decision) de:
@@ -72,5 +72,4 @@ El script realiza:
 - Caso nuevo (7 a.m., lunes, con lluvia, buses cada 15 min): prediccion
   **ALTA DEMANDA**.
 
-## Video explicativo
-[Agregar aqui el link del video - maximo 10 minutos]
+

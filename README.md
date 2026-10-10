@@ -8,7 +8,7 @@ de buses).
 
 ## Integrantes
 - Johan David Cifuentes Linares
-- 
+- Brayan David Gil Barbosa
 
 ## Fundamentacion teorica
 Basado en el capitulo 17 (Aprendizaje de arboles y reglas de decision) de:

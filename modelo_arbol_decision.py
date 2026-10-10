@@ -34,7 +34,7 @@ print("Precision del modelo:", round(accuracy_score(y_test, y_pred), 3))
 print("\nMatriz de confusion:\n", confusion_matrix(y_test, y_pred))
 print("\nReporte de clasificacion:\n", classification_report(y_test, y_pred))
 
-# 7. Reglas de decision extraidas del arbol (reglas SI-ENTONCES)
+# 7. Reglas de decision extraidas del arbol 
 print("\nREGLAS DE DECISION DEL MODELO:")
 print(export_text(modelo, feature_names=list(X.columns)))
 
@@ -54,7 +54,7 @@ plt.tight_layout()
 plt.savefig('importancia_variables.png', dpi=150)
 plt.show()
 
-# 10. Prueba con un caso nuevo (prediccion)
+# 10. Prueba con un caso nuevo
 caso_nuevo = pd.DataFrame({'hora_dia': [7], 'dia_semana': [1], 'es_fin_semana': [0],
                            'lluvia': [1], 'frecuencia_buses_min': [15],
                            'tipo_estacion_Intermedia': [0], 'tipo_estacion_Portal': [1]})
